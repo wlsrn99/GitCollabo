@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="reply">
+	<select id="list" parameterType="int" resultType="replyDTO">
+		select * from reply
+		where oriid = #{oriid}
+		<!-- bbs id에 해당하는 목록만 가지고 오면 됨.! --> 
+	</select>
+	<insert id="insert" parameterType="replyDTO">
+		insert into reply values (null, #{oriid}, #{content}, #{writer})
+	</insert>
+</mapper>

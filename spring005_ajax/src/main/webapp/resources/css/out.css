@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+	background: yellow;
+	color: blue; /* 글자색! 컨트롤 + 쉬프트 + /: 해당 페이지의 문법에 맞는 주석! */
+}
+
+input {
+	background: blue;
+	color: white;
+}
