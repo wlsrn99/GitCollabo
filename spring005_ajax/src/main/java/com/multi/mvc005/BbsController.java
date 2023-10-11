@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class BbsController {
 
 	@Autowired
-	BbsDAO bbsDAO;
+	BbsDAO bbsDAOoosfislfkj
+		oo;
 	
 	@Autowired
 	ReplyDAO replyDAO;
